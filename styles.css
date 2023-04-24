@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(93, 93, 93);
+
+}
+
+.container {
+  background-color: white;
+  border: 3px solid black;
+
+}
+
+svg {
+  /* border: 1px solid black; */
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.bar {
+  fill: rgb(0, 58, 119);
+}
+
+.bar:hover {
+  fill: rgb(28, 208, 252);
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#tooltip {
+  padding-bottom: 4px;
+}
